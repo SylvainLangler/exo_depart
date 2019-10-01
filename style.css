@@ -1,0 +1,74 @@
+body{
+    margin:0;
+}
+
+.header{
+    background-color:rgb(3, 3, 51);
+    height:60px;
+}
+
+.header-title{
+    color:white;
+    padding-top:10px;
+    padding-left:250px;
+    margin:0;
+}
+
+@media (max-width:600px){
+    .header-title{
+        padding-left:20px;
+        float:left;
+    }
+}
+
+.sub-header{
+    height:200px;
+    background: url('img/background.jpg');
+    vertical-align:center;
+}
+
+.sub-header-title{
+    text-align:center;
+    margin:0;
+    padding-top:70px;
+    color:white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+.container{
+    text-align:center;
+}
+
+.left-content, .right-content{
+    padding:20px;
+    display:inline-block;
+}
+
+.reasons-textarea{
+    height:150px;
+}
+
+.form{
+    padding:20px;
+    padding-top:10px;
+    border: 1px solid grey;
+    text-align:left;
+}
+
+.form label{
+    font-weight:bold;
+    display:inline-block;
+    margin-top:15px;
+}
+
+.validate-button{
+    width: 100%;
+    background-color: green;
+    color:white;
+    padding:10px;
+}
+
+.img-chat{
+    max-width:500px;
+}
