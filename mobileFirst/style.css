@@ -54,24 +54,24 @@ body{
     }
 
     .form{
-        display:inline-block;
+        /*display:inline-block;*/
         float:left;
         width:30%;
     }
     .image1{
-        display:inline-block;
+        /*display:inline-block;*/
         float:left;
         width:70%;
     }
 
     .texte1{
-        display:inline-block;
+        /*display:inline-block;*/
         float:left;
         width:70%;
     }
 
     .image2{
-        display:inline-block;
+        /*display:inline-block;*/
         float:left;
         width:30%;
     }
