@@ -8,6 +8,7 @@ img{
 
 body{
     margin:0;
+    background-color: #e8e8e8;
 }
 
 .header{
@@ -54,13 +55,30 @@ body{
     display:inline-block;
 }
 
+.left-content{
+    width:100%;
+}
+
+@media (min-width:768px){
+    .left-content{
+        width:70%;
+    }
+    
+}
+
+@media (min-width:1200px){
+    .left-content{
+        width:20%;
+    }
+}
+
 .reasons-textarea{
     height:160px;
+    width:100%;
 }
 
 .form{
-    padding:20px;
-    padding-top:10px;
+    padding:10px;
     border: 1px solid lightgrey;
     border-radius:5px;
     text-align:left;
@@ -70,6 +88,14 @@ body{
     font-weight:bold;
     display:inline-block;
     margin-top:15px;
+}
+
+.form label:first-child{
+    margin-top:0;   
+}
+
+select{
+    width:100%;
 }
 
 .validate-button{
@@ -94,6 +120,7 @@ body{
 .footer{
     background-color:#dedede;
     text-align:center;
+    margin-top:50px;
 }
 
 .left-footer, .right-footer{
@@ -119,4 +146,21 @@ body{
     .right-footer, .left-footer{
         max-width:100%;
     }
+}
+
+.footer2{
+    background-color:rgb(3, 3, 51);
+    height:50px;
+}
+
+.footer2-infos{
+    color:white;
+    float:right;
+    
+}
+
+.footer2-infos h3{
+    margin:0;
+    padding-top:12px;
+    padding-right:30px;
 }
